@@ -36,7 +36,12 @@ namespace HairSalon.Controllers
 
     public ActionResult Details(int id)
     {
+      List<Client> ClientList = _db.Clients.ToList();
+      ViewBag.AllList = ClientList;
+      List<Client> StylistClients = new List<Client>();
+      ViewBag.StylistClients = StylistClients;
       Stylist thisStylist = _db.Stylists.FirstOrDefault(stylist => stylist.StylistId == id);
+      
       return View(thisStylist);
     }
     public ActionResult Edit(int id)
