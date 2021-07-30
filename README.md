@@ -15,6 +15,9 @@ This is an MVC web application to help Claire (Pierre's friend) manage her emplo
 * _Git BASH_
 * _ASP .NET CORE MVC_
 
+## Schema
+
+![Screenshot](screenshot.png)
 ## Setup/Installation Requirements
 
 1. Download or clone the https://github.com/bordonj/epicodus-EauClairesSalon.Solution to your local machine
