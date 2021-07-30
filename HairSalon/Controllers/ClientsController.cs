@@ -26,7 +26,6 @@ namespace HairSalon.Controllers
     {
       List<Stylist> StylistsList = _db.Stylists.ToList();
       ViewBag.List = StylistsList;
-      System.Console.WriteLine(ViewBag.List);
       ViewBag.StylistId = new SelectList(_db.Stylists, "StylistId", "Name");
       return View();
     }
