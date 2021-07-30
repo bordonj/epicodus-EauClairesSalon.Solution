@@ -43,7 +43,7 @@ Be sure to replace `{first_last}` `{YOUR_USERNAME_NAME}` and `{YOUR_PASSWORD}` w
 - NOTE: _Do not include the curly brackets in your code snippet of appsettings.json_
 
 6. In order to see the website in the browser, make sure you've navigated to the `HairSalon` diretory
-  - run the code `$ dotnet watch run`
+  - run the code `$ dotnet run`
 7. View the website by entering `localhost:5000/` in the url of your browser/client 
 
 ## Bugs
@@ -59,4 +59,4 @@ _Copyright (c) 2021 Jennifer Bordon_
 
 ## Contact Information
 
-Jennifer Bordon _jennifer.bordon@gmail.com_
+_jennifer.bordon@gmail.com_
