@@ -7,7 +7,8 @@
 <h2>Stylist Details</h2>
 <hr />
 <h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)<h3>
-<h4>@Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description)</h4>
+<h4>@Html.DisplayNameFor(model => model.Description):</h4>
+<h5>@Html.DisplayFor(model => model.Description)</h5>
 
 <h4>Current Clients</h4>
 <ol>
@@ -22,7 +23,7 @@
 
 
 
-
+<p>@Html.ActionLink("Add new client", "Create", "Clients")</p>
 <p>@Html.ActionLink("Edit Stylist", "Edit", new { id = Model.StylistId })</p>
 <p>@Html.ActionLink("Delete Stylist", "Delete", new { id = Model.StylistId })</p>
 <p>@Html.ActionLink("Back to list", "Index")</p>

@@ -22,7 +22,7 @@ This is an MVC web application to help Claire (Pierre's friend) manage her emplo
 
 1. Download or clone the https://github.com/bordonj/epicodus-EauClairesSalon.Solution to your local machine
 
-2. Open terminal and navigate to the EauClairesSalon.Solutionof the directory
+2. Open terminal and navigate to the EauClairesSalon.Solution of the directory
 
 3. Run "dotnet restore" in the the `HairSalon` directory to install dependencies
 `$ dotnet restore`
