@@ -16,7 +16,7 @@
 {
   if (client.StylistId == Model.StylistId)
   {
-    <li>@client.Name</li>
+    <li>@Html.ActionLink(client.Name, "Details", "Clients", new { id = client.ClientId})</li>
   }
 }
 </ol>
