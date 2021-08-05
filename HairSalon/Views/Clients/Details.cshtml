@@ -1,0 +1,17 @@
+@{
+  Layout = "_Layout";
+}
+
+@model HairSalon.Models.Client
+
+<h2>Client Details</h2>
+<hr />
+<h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)<h3>
+<h3>@Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description)<h3>
+@* normally in code, special variable should be Model that references the data *@
+<h3> Stylist: @Html.ActionLink(Model.Stylist.Name, "Details", "Stylists", new { id = Model.Stylist.StylistId}) </h3>
+  @* want to make line 11 a link to the stylist details page, also make sure to add this as a commit that I added line 11 *@
+
+<p>@Html.ActionLink("Edit client", "Edit", new { id = Model.ClientId })</p>
+<p>@Html.ActionLink("Delete client", "Delete", new { id = Model.ClientId })</p>
+<p>@Html.ActionLink("Back to list", "Index")</p>
